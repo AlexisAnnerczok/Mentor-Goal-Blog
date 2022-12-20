@@ -1,0 +1,149 @@
+@import url('https://fonts.cdnfonts.com/css/mulish'); 
+
+.main{
+  font-family: 'Mulish', sans-serif;
+  background: linear-gradient(115.5deg, #2A4054 0%, #2D4459 35.75%, #3C5B78 82.39%, #466A8B 99.49%);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.topContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0%;
+  gap: 15.5%;
+  position: absolute;
+  height: 10%;
+  left: 15%;
+  top: 154px; 
+}
+
+.breadCrumb{
+  position: relative;
+  z-index: 2;
+  width: 70%;
+  color: white;
+  margin: 0 auto;
+  }
+
+.breadCrumb ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.currentPage{
+  display: inline;
+  font-size: 14px;
+  
+}
+
+.currentPage a{
+  text-decoration: none;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 56px;
+  position: absolute;
+  width: 449px;
+  height: 288px;
+  left: 128px;
+  top: 152px;
+}
+
+.headerMiddle{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.headerMiddleTxt{
+  margin-left: 150px;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  letter-spacing: -0.003em;
+  color: #FFFFFF;
+}
+
+.sort{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  }
+
+.sortText{
+  display: flex;
+  align-items: center;
+  margin-right: 120px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #A3B5C5;
+  }
+
+.cardContainer{
+  width: 71%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.cardContainer li{
+  z-index: 2;
+}
+
+.cardContainerMin{
+  z-index: 2;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 auto ;
+}
+
+.card{
+  z-index: 2;
+  padding: 20px;
+}
+
+.buttonsee{
+  display: block;
+  margin: 0 auto;
+  width: 8%;
+  margin-top: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid #BFE2DE;
+  border-radius: 16px;
+  cursor: pointer;  
+}
+
+.buttonseeTxt{
+  display: block;
+  margin: 0 auto;
+  width: 67px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F6F8F9;
+}

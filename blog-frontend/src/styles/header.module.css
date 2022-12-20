@@ -1,0 +1,201 @@
+@import url('https://fonts.cdnfonts.com/css/mulish'); 
+
+.navbar{
+    position: fixed;
+    top: 0%;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    filter: drop-shadow(0px 0px 4px rgba(14, 21, 28, 0.06)) drop-shadow(1px 4px 16px rgba(14, 21, 28, 0.08));
+    background: transparent;
+    z-index: 5;
+}
+
+.navMenus{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 0px;
+    gap: 16px;
+    align-items: center;
+}
+
+.navItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px 8px 8px;
+    gap: 8px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.navItems:hover{
+    border-bottom: 1px solid white;
+}
+
+.logoMG{
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    color: white;
+    }
+
+.phone{
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: row;
+    padding: 0px;
+    gap: 16px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 24px;
+    gap: 10px;
+    width: 147px;
+    height: 40px;
+    background: #BFE2DE;
+    border-radius: 16px;
+    border: none;
+}
+
+.button1{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 24px;
+  gap: 4px;
+  height: 36px;
+  background: #BFE2DE;
+  border-radius: 16px;
+}
+
+.button1:hover{
+    background: #F9D1B1
+}
+
+.button1txt{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #2A4054;
+}
+
+.menus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+
+.MG{
+    display: none;
+}
+
+.hide{
+    display: none;
+}
+
+.menuPhone{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background: white;
+    z-index: 100;
+}
+
+.menuPhone{
+    display: none;
+    top: 8%;
+}
+
+.menuTop, .menuBottom{
+    width: 90%;
+    margin-left: 5%;
+    line-height: 60px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #2A4054;
+}
+
+.menuTop{
+    border-bottom: 1px dashed #466A8B; ;
+}
+
+.menuChild#phone{
+    font-weight: 400;
+}
+
+@media screen and (max-width: 568px) {
+    .MG{
+        margin-left: 50px !important;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+    .content{
+        gap: 8px;
+    }
+    .navMenus{
+        gap: 8px;
+    }
+    .navbar{
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar{
+        background: white !important;
+        height: 74px;
+        justify-content: space-between;
+    }
+    .content{
+        color: #2D4358 !important;
+
+    }
+    .MG{
+        display: flex;
+        margin-left: 100px;
+    }
+    .logoMG, .navMenus, .navItems, .button1{
+        display: none;
+    }
+    .contentPhone{
+        width: 50%;
+        display: flex;
+    }
+    .content{
+        margin-right: 70px;
+        align-items: unset;
+        gap: 25px;
+    }
+    .hide{
+        display: unset;
+    }
+}

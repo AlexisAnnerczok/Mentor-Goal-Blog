@@ -1,0 +1,46 @@
+@import url('https://fonts.cdnfonts.com/css/mulish'); 
+
+.main{
+  font-family: 'Mulish', sans-serif;
+  background: linear-gradient(115.5deg, #2A4054 0%, #2D4459 35.75%, #3C5B78 82.39%, #466A8B 99.49%);
+  padding-top: 150px;
+  height: 100vh;
+}
+
+.goto_index_btn {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  color: #2A4054;
+  background: #F9D1B1;
+  font-weight: 500;
+}
+
+.login_submit_btn{
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  background: #BFE2DE;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+  color: #2A4054;
+}
+
+.login_submit_btn:hover{
+  background: #F9D1B1;
+}
+
+.linkChangePage{
+  color: #2A4054 !important;
+  font-weight: 450;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}

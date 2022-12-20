@@ -1,0 +1,37 @@
+@import url('https://fonts.cdnfonts.com/css/mulish'); 
+
+.main{
+  font-family: 'Mulish', sans-serif;
+}
+
+.label{
+  display: flex;
+  height: 28px;
+  background: #FDF0E4;
+  border: 1px solid #DE6D0F ;
+  border-radius: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.labelTxt{
+  display: block !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  margin-top: 3.5px !important;
+  height: 20px !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 1550px) {
+  .label{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .labelTxt{
+    font-size: 10px !important;
+  }
+}

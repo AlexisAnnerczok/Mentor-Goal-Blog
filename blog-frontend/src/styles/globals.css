@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+
+body::-webkit-scrollbar-track:hover {
+  background:#FAD1B0;
+}
+
+body::-webkit-scrollbar-thumb {
+  background:#3f5e7a;
+  border-radius: 20px;
+;
+}
+
+::selection {
+  color: #466A90;
+  background: #FAD1B0;
+}
+
+@media screen and (max-width: 768px){
+  ::-webkit-scrollbar {
+      -webkit-appearance: none;
+  }
+}
